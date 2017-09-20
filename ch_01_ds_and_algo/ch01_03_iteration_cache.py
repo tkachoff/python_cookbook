@@ -10,7 +10,7 @@ def search(lines, pattern, history=5):
 
 
 if __name__ == '__main__':
-  with open('ch1_3.txt') as f:
+  with open('ch01_03.txt') as f:
     for line, prevlines in search(f, "archie", 5):
       for pline in prevlines:
         print(pline, end='')
